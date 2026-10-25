@@ -23,7 +23,7 @@ import {
 
 import './App.css'
 
-const API_URL = 'http://localhost:8000/api/wind'
+const API_URL = `${import.meta.env.VITE_API_URL}/api/wind`
 
 function App() {
   const [date, setDate] = useState('2026-01-15')
@@ -168,7 +168,7 @@ function App() {
           <AlertCircle size={18} />
 
           <span>
-            {error}. Check that the backend is running on port 8000.
+            {error}. Check the backend URL and deployment status.
           </span>
         </div>
       )}
@@ -249,10 +249,7 @@ function App() {
                 data={chartData}
                 margin={{ top: 12, right: 12, left: 4, bottom: 4 }}
               >
-                <CartesianGrid
-                  strokeDasharray="3 3"
-                  vertical={false}
-                />
+                <CartesianGrid strokeDasharray="3 3" vertical={false} />
 
                 <XAxis
                   dataKey="time"
