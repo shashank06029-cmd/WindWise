@@ -42,3 +42,11 @@ The dashboard uses Elexon data to compare day-ahead wind forecasts with actual g
 
 AI assistance was used during development for coding support and troubleshooting. The project was tested locally using Docker.
 
+## Demo Video
+
+Watch the WindWise project demonstration: [WindWise Demo Video](https://youtu.be/htBNW-DimwA)
+
+## Live Application
+
+- **Frontend:** https://windwise-dashboard.onrender.com/
+- **Backend Health Check:** https://windwise-backend-b3x2.onrender.com/api/health
