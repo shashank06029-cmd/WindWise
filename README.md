@@ -46,6 +46,9 @@ AI assistance was used during development for coding support and troubleshooting
 
 Watch the WindWise project demonstration: [WindWise Demo Video](https://youtu.be/htBNW-DimwA)
 
+**Note:** If the video does not open in your regular browser, please try opening the link in an Incognito/Private window.
+
+
 ## Live Application
 
 - **Frontend:** https://windwise-dashboard.onrender.com/
